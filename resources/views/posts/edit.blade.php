@@ -14,12 +14,12 @@
     <form method="post" action="/posts/update/{{$post->title}}">
 
         <div class="form-group">
-            <label>名前</label>
+            <label>コード</label>
             <input type="text" name="title" value="{{ $post->title }}" class="form-control" readonly>
         </div>
 
         <div class="form-group">
-            <label>E-Mail</label>
+            <label>内容</label>
             <input type="text" name="comment" value="{{ $post->comment }}" class="form-control" required autofocus>
         </div>
 
